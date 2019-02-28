@@ -1,0 +1,496 @@
+*{ 
+  margin: 0; /* Estilo para la pagina */
+  box-sizing: border-box;
+}
+
+.fondo{
+  background-color: #cccccc;
+}
+.tabla__fondo{
+   position: relative;
+    background: #e6d813;Color de letras
+    padding: 10px;/*Tamaño*/
+    left: 10px;
+}
+.tabla{
+  position: relative;
+  left: 90px;
+
+}
+
+.reproductor__txt{
+ background: rgba(0,0,0,0.5);/*tamaño de fondo*/
+    color: #fff;/*Color de letras*/
+    padding: 20px;/*Tamaño*/
+    position: absolute;/*Posision del banner*/
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.reproductor1{
+    padding: 10px;
+    margin: 6px;
+    background: #5e13e6; 
+    position: relative;
+   
+}
+
+.reproductor1:hover{
+   box-shadow: 0 0px 15px 3px rgba(98, 199, 231, 0.9);  
+
+}
+.reproductor2{
+    padding: 10px;
+    margin: 6px;
+    background: skyblue; 
+    position: relative;
+   
+}
+
+.reproductor2:hover{
+   box-shadow: 0 0px 15px 3px rgba(98, 199, 231, 0.9);  
+}
+
+
+body{ 
+  font-family: sans-serif;/*Estilo de letra*/
+}
+
+.destino__img{
+    max-width: 85%;
+}
+
+.logo{/*Estilo al logo*/
+    width: 180px;/*Ancho*/
+    height: 55px;/*Alto*/
+}
+
+.logoUser{
+  width: 55px;/*Ancho*/
+  height: 50px;/*Alto*/
+  display: flex;/*Texto Flexible*/
+}
+
+
+.logoUser:hover{
+  box-shadow:  0 0 0 8px white,0 15px 200px;/*sombreado,color*/
+  transform:scale(1.1);
+}
+
+.contenedor{
+   margin: 100%;
+   margin: auto;
+}
+/*-----------------header---------------------------*/
+.header{
+    background: #fff;/*Color de Fondo*/
+}
+
+.header .contenedor{
+    display: flex;/*Texto Flexible*/
+    justify-content: space-between; /*Icono esquinado(desplegable)*/
+}
+
+.logo,.icon-menu{
+    margin: 5px;/*Tamaño de icono desplegable*/
+    color: skyblue;/*Color de icono desplegable*/
+}
+
+.icon-menu{/*Icono desplegable*/
+    display: block;/*Icono fijo*/
+    width: 40px;/*Ancho*/
+    height: 40px;/*Alto*/
+    font-size: 30px; /*Tamaño del icono*/
+    text-align: center;/*Alineado al centro*/
+    line-height: 45px;*/*Estilo*/
+    border-radius: 5px;/*Redondear icono*/
+    cursor: pointer;/*Estilo*/
+}
+
+.nav{ /*Texto desplegable del icono*/
+    position: absolute;/*Damos posision al icono*/
+    top: 60px;/*Tamaño*/
+    left: -100%;/*Esconder texto*/
+    transition: all 0.5s;/*Tiempo en mostrar menu desplegable*/
+    width: 100%;/*Tamaño*/
+    z-index: 100;/*Encima de todo*/
+}
+
+.menu{ /*Estilo de menu desplegable*/
+    list-style: none;/*Quitar puntos de lista por defecto*/
+    padding: 0;margin: 0; /*Estilo en lineas intermedias*/
+}
+
+.menu__link{/*Estilo interfaz de menu desplegable*/
+    cursor: pointer;/*Puntos consecutivos*/
+    display: block;/*Bloqueado*/
+    padding: 15px;/*Espacio entre lineas*/
+    background: #fff;/*Color de fondo de menu gral*/
+    color: #5e13e6 ;/*Color de letras grales de menu*/
+    height: 60px;
+    border-bottom: 1px solid skyblue ;/*Linea de bajo(ver mas gruesa)*/
+    font-weight: bold;/*Letra mas gruesa*/
+    font-size: 20px;/*Tamaño de la letra*/
+     text-decoration: none;
+}
+
+.menu__link:hover{ /*Efecto de cursor por encima de menu desplegable*/
+    background: skyblue; /*Cambia color de fondo*/
+    color: #fff;/*Color de la letra a blanco*/
+}
+
+.muestrate{ /*Funcion para mostrar*/
+    left: 0;
+}
+/*-----------------estilos de banner---------------------------*/
+.banner img{
+    width: 100%; /*Tamañom de imagen de slider*/
+}
+
+.banner{ /*Estilo para texto alternativo de banner*/
+  position: relative; 
+  text-align: center;
+} 
+
+.banner__descripcion{/*Descripcion de slider*/
+    background: rgba(0,0,0,0.5);/*tamaño de fondo*/
+    color: #fff;/*Color de letras*/
+    padding: 20px;/*Tamaño*/
+    position: absolute;/*Posision del banner*/
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.banner__descripcion h1{/*Titulo de banner*/
+    font-size:30px;
+}
+
+.banner__descripcion p{/*Descripcion de banner*/
+    font-size: 10px;
+    display: none;/*Utilizado para tamaño movil*/
+}
+
+.slider__txt2 { /*Descripcion debajo del slider*/
+  background: rgba(98, 199, 231, 0.7);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  color: white;
+  text-align: justify;
+  display: none;/*Ocultar para movil*/
+}
+
+/*-----------------estilos del destino--------------*/
+.destino__titulo{ /*Titulo general*/
+    font-size: 40px;
+    text-align: center;   
+}
+.destino__txt{ /*Descripcion*/
+    font-size: 20px;
+    text-align: justify;
+    padding: 15px;
+}
+.destino__img{ /*Tamaño de imagen*/
+ width: 100%;
+ border-radius: 50%;/*Forma en circulo de la imagen*/
+ margin: 24px;/*Imagen centrada*/
+}
+
+.destino__columna{/*Posision relativa de texto*/
+     position: relative;
+}
+
+.destino__columna a{/*Texto de las imagenes*/
+    position: absolute;
+    top: 50%;/*Centrar texto*/
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    color: #fff;/*Color de la letra*/
+    font-size: 32px;
+    font-weight:900;
+}
+
+.destino .contenedor{ /*Posision gral de imagenes de destino*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.destino__columna:hover .destino__img { /*Efecto de imagen al pasar cursor*/
+      box-shadow:  0 0 0 8px #fff,0 15px 200px;/*sombreado,color*/
+      transform:scale(1.1); /*Agrandar imagen*/
+}
+
+/*-------------------------------Estilos de especial---------------------------*/
+.especial{
+    background: #43CBE8 ;
+    text-align: center; color: #fff;
+}
+.programas__titulo{
+    font-size: 30px;
+      padding: 25px;
+}
+.especial__img{
+   width: 100%;  
+}
+.informacion{
+    margin-top: -6px;
+    background: #fff;
+    color: #000;
+}
+.especial__titulo{
+    font-size: 25px;
+    padding: 5px;
+}
+.especial__txt{
+   padding: 25px;
+    text-align: justify;
+}
+.button{
+    padding: 15px;
+    margin: 15px;
+    font-size: 20px;
+    background: #21aedb;
+    border: 0;
+     cursor: pointer;
+     color: white;
+    font-weight: bold;
+}
+.button:hover {
+          box-shadow: 0 0px 15px 3px rgba(98, 199, 231, 0.9);  
+}
+
+.especial__columna1,.especial__columna2,.especial__columna3{
+ margin: 15px; 
+}
+.especial .contenedor{
+     display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+/*-----------------estilos de Ofertas--------------*/
+.ofertas__titulo{
+    padding: 25px;
+    text-align: center;
+    font-size: 30px; 
+}
+.ofertas__img{
+    width: 100%;
+   filter: brightness(60%);
+}
+.ofertas__columna{
+    position: relative;
+}
+.ofertas__columna h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    color:#fff;
+    font-size: 30px;
+}
+ .ofertas__columna:hover  .ofertas__img{
+  filter: brightness(100%);
+}
+.ofertas .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*-----------------estilos de Fondo--------------*/
+.fondo__img{
+    width: 100%; 
+}
+.info__fondo{
+    position: relative;
+}
+.fondo__titulo {
+    color: #fff;
+    position: absolute;
+   top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 25px;
+    text-align: center;
+}
+.fondo__txt {
+    color: #fff;
+    position: absolute;
+   top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 15px;
+    text-align: center;
+     
+}
+/*----------Estilos del footer----------------------*/
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.copy {
+    font-size: 20px;
+}
+.sociales {
+    width: 100%;
+    text-align: center;
+    
+}
+/*---------------Estilos Responsive------------------*/
+@media(min-width:480px){
+       .banner__descripcion {
+       top: 32%;    
+        width: 80%;
+        padding: 8px; 
+}
+ .banner__descripcion p{
+        display: block;
+        font-size: 17px;
+}
+    .slider__txt2 {
+    display: block;
+    bottom: 3px;
+    font-size: 17px;
+  }
+ 
+  
+    .destino__img{
+        width: 400px;
+       
+    }
+     .especial__columna1,.especial__columna2,.especial__columna3{
+        width: 90%;
+    }
+    .ofertas__columna h4{
+    font-size: 40px;
+}
+    .fondo__titulo{
+        font-size: 50px;
+    }
+    .fondo__txt{
+        font-size: 22px;
+    }
+}
+@media(min-width:768px){
+        #btn-prev,#btn-next
+    {
+        display: block;
+    }
+       .banner__descripcion {
+         top: 50%;
+       
+}
+     .banner__descripcion h1 {    
+        font-size: 42px;
+}
+    .banner__descripcion p {
+        font-size: 18px;
+}
+    .slider__txt2 {
+      font-size: 25px;
+        padding: 20px;
+  }
+     .destino__columna{
+        width: 45%;
+    }
+    .especial__columna1,.especial__columna2{
+        width: 43%;
+    } 
+    .ofertas__columna{
+        width: 49.6%;
+       margin-left: 3px; 
+    }
+    .fondo__img{
+        padding:0px 0px 0px 5px;
+   }
+     .fondo__titulo{
+        font-size: 90px;
+    }
+    .fondo__txt{
+        font-size: 35px;
+    }
+     .sociales {
+        width: auto;
+        padding: 20px;
+    }
+    footer .contenedor {
+        justify-content: space-between;
+    }
+    .copy{
+        padding: 30px;
+    }
+}
+@media(min-width:1024px){
+     .contenedor{
+        width: 1000px;
+    }
+    .nav {
+    position: static;
+    width: auto;
+  }
+  .menu {
+    display: flex;
+  }
+  .icon-menu {
+    display: none;
+  }
+	.menu__link{
+		border: none;
+	} 
+      .banner__descripcion .contenedor{
+       width: 90%;
+    }
+    #btn-prev,#btn-next{
+    width: 60px;
+    height: 60px;
+    transform: translateY(-50%);
+   line-height: 50px;
+    font-size: 60px;
+    }
+    .banner__descripcion h1 {  
+        font-size: 68px; 
+    }
+    .banner__descripcion p {  
+        font-size: 28px; 
+}
+    .slider__txt2 {
+      font-size: 32px;
+        padding: 25px;  
+  }
+    .destino__columna{
+        width: 25%; 
+    }
+    /*.titulo__destino{
+        font-size: 60px;
+    }*/
+    .especial__columna1,.especial__columna2,.especial__columna3{
+    width: 30%;
+    } 
+    
+     .ofertas__columna{
+        width: 32%; 
+    }
+      .fondo__img{
+    padding:0px 20px 0px 20px;   
+}
+    .fondo__titulo{
+        font-size: 80px;
+    }
+    .fondo__txt{
+        font-size: 42px;
+    }
+}
+@media(min-width:1280px){
+    .banner__descripcion {
+        padding: 50px;
+         width: 1200px;
+    }
+    .contenedor{
+        width: 1200px;
+    }
+
+

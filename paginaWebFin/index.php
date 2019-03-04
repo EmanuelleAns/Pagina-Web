@@ -85,7 +85,7 @@
 
         <div class="destino__columna"><!--Imagen de contenidos-->
            <img src="img/imagen1.jpg" class="destino__img">
-           <h3><a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"> Gera MXM</a></h3>
+           <h3><a href="http://localhost/paginaWebFin/newIndex.php"> Gera MXM</a></h3>
           </div>
 
           <div class="destino__columna"><!--Imagen de contenidos-->

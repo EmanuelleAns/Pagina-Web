@@ -3,19 +3,25 @@
   box-sizing: border-box;
 }
 
+.pie{
+  position: relative;
+  top: 1640px;
+  right: 150px;
+
+}
+
 .fondo{
-  background-color: #cccccc;
+  background-color: #13e693;
 }
 .tabla__fondo{
-   position: relative;
-    background: #e6d813;Color de letras
+    background: #e6d813;
     padding: 10px;/*Tamaño*/
-    left: 10px;
+    
 }
 .tabla{
-  position: relative;
-  left: 90px;
-
+   position: relative;
+  left: 126px;
+  bottom: 250px;
 }
 
 .reproductor__txt{

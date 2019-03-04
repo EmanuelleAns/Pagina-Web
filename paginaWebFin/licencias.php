@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="es"><!--Definimos Idioma-->
 <head>
-  <meta charset="UTF-8">
-  <title>Categorias</title>
+	<meta charset="UTF-8">
 
  <link rel="stylesheet" type="text/css" href="css/estilos.css"><!--Vincular CSS-->
  <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
@@ -11,9 +10,9 @@
       <!--Usamos estilos-->
    
 </head>
-<body class="fondo">
+<body>
     <!-----------------------------------------Header-------------------------------------->
-    <header class="header"><!--Definimos Clases-->
+   <header class="header"><!--Definimos Clases-->
 
     <div class="contenedor">
         <img src="img/logo1.png" class="logo"><!--Logo Principal-->
@@ -40,49 +39,8 @@
         </div>
       </header>
 
-      <div class="banner" class="contenedor"><br><br><br><br><h1 class="banner__descripcion">Categorias</h1></div>
-
-  <!-------------------------------------  php   ------------------------>
-
-    <div class="tabla"><table border="1" class="tabla__fondo">
-    <tr>
-      <th>No.</th>
-      <th>Artista</th>
-      <th>Canción</th>
-      <th>Licencia de Uso</th>
-      <th>Reproducción</th>
-    </tr>
-
-<?php 
-include "raperos.php";
-$sentencia=$base_de_datos->query("SELECT * FROM  artistas;");
-$rapero=$sentencia->fetchAll(PDO::FETCH_OBJ);
-?> 
   
-    <?php foreach ($rapero as $p) {?>
-    <tr>
-      <td><?php echo $p->id ?></td>
-      <td><?php echo $p->artista ?></td>
-      <td><?php echo $p->cancion ?></td>
-      <td><?php echo $p->licencia ?></td>
-      <td><?php echo $p->reproduccion ?></td>
-    </tr>
-
-  <?php } 
-  ?>   
-</div></body>
-
-  <footer class="pie"><div class="contenedor">
-        <p class="copy">FreeAudioTeam &copy; 2019</p> <div class="sociales">
-        <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><img src="img/icono1.png" alt=""></a> 
-        <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><img src="img/icono2.png"></a>
-        <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><img src="img/icono3.png"></a>
-        <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><img src="img/icono4.png"></a>        </div></div></footer>
-
 
  <script src="js/menu.js"></script> <!--enlace con javaScript--> 
-
+   
 </html>
-    
-
-  

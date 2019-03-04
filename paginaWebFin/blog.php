@@ -5,6 +5,14 @@
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <link rel="stylesheet" type="text/css" href="css/estilos.css"><!--Vincular CSS-->
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery.scrollUp.js"></script>
+
+        <link rel="stylesheet" href="css/main.css"><!-- Vincular para boton -->
+        <script>$(function(){$.scrollUp({scrollImg: true});});</script> <!-- Funcion de boton -->
+
+
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style type="text/css">a:link{text-decoration:none;}</style><!--Quitar decoracion de subrayado-->
 
@@ -111,7 +119,18 @@
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
     </body>
-</body>
+
+
+
+
+
+
+
+
+
+
+
+
 <!---------------------Pie de pagina--------------------------->
   
   <footer><div class="contenedor">

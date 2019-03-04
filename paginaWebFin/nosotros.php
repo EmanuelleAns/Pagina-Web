@@ -4,6 +4,13 @@
 	<meta charset="UTF-8">
 
  <link rel="stylesheet" type="text/css" href="css/estilos.css"><!--Vincular CSS-->
+
+       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery.scrollUp.js"></script>
+
+        <link rel="stylesheet" href="css/main.css"><!-- Vincular para boton -->
+        <script>$(function(){$.scrollUp({scrollImg: true});});</script> <!-- Funcion de boton -->
+        
  <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
 
      <link href="https://file.myfontastic.com/t5tNwfwUapz4yDzK3B6sfe/icons.css" rel="stylesheet">

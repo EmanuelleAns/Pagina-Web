@@ -19,7 +19,7 @@
       <!--Usamos estilos-->
    
 </head>
-<body>
+<body class="fondo_blog">
     <!-----------------------------------------Header-------------------------------------->
     <header class="header"><!--Definimos Clases-->
 
@@ -34,7 +34,7 @@
 
           <li class="menu__item"><a class="menu__link" href="http://localhost/paginaWebFin/blog.php">BLOG</a></li>
 
-          <li class="menu__item"><a class="menu__link" href="http://localhost/paginaWebFin/categorias.php">Categorias</a></li>
+          <li class="menu__item"><a class="menu__link" href="http://localhost/paginaWebFin/categorias.php">Categorías</a></li>
 
           <li class="menu__item"><a class="menu__link" href="http://localhost/paginaWebFin/nosotros.php">Nosotros</a></li>
 
@@ -47,6 +47,8 @@
         </nav>
         </div>
       </header>
+      <div class="banner" ><br><br><h1 class="banner__descripcion">BLOG</h1></div><br><br>
+
       
 
     <body>
@@ -111,18 +113,13 @@
     </body>
 </body>
 <!---------------------Pie de pagina--------------------------->
- <footer>
-            <div class="contenedor">
-                <p class="copy">FreeAudioTeam &copy; 2019</p>
-                <div class="sociales">
-                    <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><img src="img/icono1.png" alt=""></a>  
-                         
-                         <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><img src="img/icono2.png"></a>
-                         <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><img src="img/icono3.png"></a>
-                         <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><img src="img/icono4.png"></a>        
-                </div>
-            </div>
-        </footer>
+  
+  <footer><div class="contenedor">
+              <p class="copy">FreeAudioTeam &copy; 2019</p><div class="sociales">
+              <a href="https://es-la.facebook.com/"><img src="img/icono1.png" alt=""></a>    
+              <a href="https://twitter.com/?lang=es"><img src="img/icono2.png"></a>
+              <a href="https://www.instagram.com/?hl=es-la"><img src="img/icono3.png"></a>
+              <a href="https://www.youtube.com/"><img src="img/icono4.png"></a> </div></div></footer>
 
  <script src="js/menu.js"></script> <!--enlace con javaScript--> 
 </html>

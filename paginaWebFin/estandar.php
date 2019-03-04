@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="es"><!--Definimos Idioma-->
 <head>
-	<meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <title>Estandar</title>
 
  <link rel="stylesheet" type="text/css" href="css/estilos.css"><!--Vincular CSS-->
  <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
@@ -10,9 +11,9 @@
       <!--Usamos estilos-->
    
 </head>
-<body>
+<body class="fondo">
     <!-----------------------------------------Header-------------------------------------->
-   <header class="header"><!--Definimos Clases-->
+    <header class="header"><!--Definimos Clases-->
 
     <div class="contenedor">
         <img src="img/logo1.png" class="logo"><!--Logo Principal-->
@@ -39,14 +40,30 @@
         </div>
       </header>
 
-<footer><div class="contenedor">
+      <div class="banner" class="contenedor"><br><br><br><br><h1 class="banner__descripcion">Categorías</h1></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <footer><div class="contenedor">
               <p class="copy">FreeAudioTeam &copy; 2019</p><div class="sociales">
               <a href="https://es-la.facebook.com/"><img src="img/icono1.png" alt=""></a>    
               <a href="https://twitter.com/?lang=es"><img src="img/icono2.png"></a>
               <a href="https://www.instagram.com/?hl=es-la"><img src="img/icono3.png"></a>
               <a href="https://www.youtube.com/"><img src="img/icono4.png"></a> </div></div></footer>
-  
+
 
  <script src="js/menu.js"></script> <!--enlace con javaScript--> 
-   
+
 </html>

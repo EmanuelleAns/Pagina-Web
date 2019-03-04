@@ -11,7 +11,7 @@
       <!--Usamos estilos-->
    
 </head>
-<body>
+<body class="fondo_inicio">
     <!-----------------------------------------Header-------------------------------------->
     <header class="header"><!--Definimos Clases-->
 
@@ -26,7 +26,7 @@
 
           <li class="menu__item"><a class="menu__link" href="http://localhost/paginaWebFin/blog.php">BLOG</a></li>
 
-          <li class="menu__item"><a class="menu__link" href="http://localhost/paginaWebFin/categorias.php">Categorias</a></li>
+          <li class="menu__item"><a class="menu__link" href="http://localhost/paginaWebFin/categorias.php">Categorías</a></li>
 
           <li class="menu__item"><a class="menu__link" href="http://localhost/paginaWebFin/nosotros.php">Nosotros</a></li>
 
@@ -39,6 +39,7 @@
         </nav>
         </div>
       </header>
+      <div class="banner" class="contenedor"><br><br><br><br><h1 class="banner__descripcion">Inicio</h1></div>
     <!-----------------------------------------Banner-------------------------------------->
     
         <div class="banner"> <!--Definimos clase (contenedor para alinar a todas)--> 
@@ -66,7 +67,7 @@
     <section class="destino">
       
         <div class="contenedor ">
-           <h2 class="destino__titulo">Inicio</h2> <!--Titulo principal de contenedor-->
+           <h2 class="destino__titulo">Éxitos</h2> <!--Titulo principal de contenedor-->
            <p class="destino__txt">La música que necesitas en nuestro catálogo online con más 
           de 20.000 temas para tus proyectos.</p>
 
@@ -177,18 +178,12 @@
         </section>
     </main>
         
-      <footer>
-            <div class="contenedor">
-                <p class="copy">FreeAudioTeam &copy; 2019</p>
-                <div class="sociales">
-                    <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><img src="img/icono1.png" alt=""></a>  
-                         
-                         <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><img src="img/icono2.png"></a>
-                         <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><img src="img/icono3.png"></a>
-                         <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><img src="img/icono4.png"></a>        
-                </div>
-            </div>
-        </footer>
+      <footer><div class="contenedor">
+              <p class="copy">FreeAudioTeam &copy; 2019</p><div class="sociales">
+              <a href="https://es-la.facebook.com/"><img src="img/icono1.png" alt=""></a>    
+              <a href="https://twitter.com/?lang=es"><img src="img/icono2.png"></a>
+              <a href="https://www.instagram.com/?hl=es-la"><img src="img/icono3.png"></a>
+              <a href="https://www.youtube.com/"><img src="img/icono4.png"></a> </div></div></footer>
 </body>
      
   <script src="js/menu.js"></script> <!--enlace con javaScript--> 

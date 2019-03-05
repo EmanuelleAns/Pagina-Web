@@ -90,17 +90,17 @@
 
           <div class="destino__columna"><!--Imagen de contenidos-->
               <img src="img/imagen2.jpg" alt="" class="destino__img">         
-              <h3><a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html">Eptos Uno</a></h3>               
+              <h3><a href="http://localhost/paginaWebFin/newIndex2.php">Eptos Uno</a></h3>               
           </div>
 
           <div class="destino__columna"><!--Imagen de contenidos-->
               <img src="img/imagen3.jpg" alt="" class="destino__img">
-              <h3><a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html">CharlesAns</a></h3>
+              <h3><a href="http://localhost/paginaWebFin/newIndex3.php">CharlesAns</a></h3>
           </div>
 
           <div class="destino__columna"><!--Imagen de contenidos-->
               <img src="img/imagen4.jpg" alt="" class="destino__img">
-              <h3><a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html">Rels B</a></h3>
+              <h3><a href="http://localhost/paginaWebFin/newIndex4.php">Rels B</a></h3>
           </div> 
         </section>   
         
@@ -116,7 +116,7 @@
             <h3 class="especial__titulo">F*ckTodas menos la mía</h3>
             <p class="especial__txt">Borra el tiempo, tira todo lo que te recuerde a mí, las fotos que te tomé, las cartas que te escribí. Nada es suficiente como tus grandes abrigos. –”Nunca te pude alcanzar”.
             </p>
-        <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><button class="button">Escuchar Ahora</button></a></div>
+        <a href="http://localhost/paginaWebFin/escucha.php"><button class="button">Escuchar Ahora</button></a></div>
         </article>
         
         <article class="especial__columna2">
@@ -125,7 +125,7 @@
                 <h3 class="especial__titulo">Ataraxia</h3>
                 <p class="especial__txt">Voy sin estribillos a kilómetros de casa, se juntan los problemas mientras las horas pasan. Yo me distraigo entre envases y bachas, y me siento mejor cuando la gente está borracha. –Todavía.
                </p>
-                  <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><button class="button" href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html">Escuchar Ahora</button></a></div>
+                  <a href="http://localhost/paginaWebFin/escucha2.php"><button class="button">Escuchar Ahora</button></a></div>
                   
             </article>
             
@@ -135,7 +135,7 @@
                 <h3 class="especial__titulo">West Gold ft. Eptos Uno</h3>
                 <p class="especial__txt">En una vida próspera, una vida más íntima, donde más de una probó lo de ser mi víctima. Solo son síntomas de intimidad y vida, la vida no es pa’ llorar sino para bailar respira. –A paso lento.
                </p>
-                  <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><button class="button" href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html">Escuchar Ahora</button></a></div>
+                  <a href="http://localhost/paginaWebFin/escucha3.php"><button class="button">Escuchar Ahora</button></a></div>
             </article>
             </div>
         </section>
@@ -147,28 +147,28 @@
         <div class="contenedor">
             <article class="ofertas__columna">
             <img src="img/mas1.jpg" class="ofertas__img">
-                <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><h4>Canserbero</h4></a>
+                <a href="http://localhost/paginaWebFin/art.php"><h4>Canserbero</h4></a>
             </article>
 
             <article class="ofertas__columna">
             <img src="img/mas2.jpg" class="ofertas__img">
-                <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><h4 >La Banda Bastön</h4></a>
+                <a href="http://localhost/paginaWebFin/art2.php"><h4 >La Banda Bastön</h4></a>
             </article>
             <article class="ofertas__columna">
             <img src="img/mas3.jpg" class="ofertas__img">
-                <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><h4 >Cartel de Santa</h4></a>
+                <a href="http://localhost/paginaWebFin/art3.php"><h4 >Cartel de Santa</h4></a>
             </article>
             <article class="ofertas__columna">
             <img src="img/mas4.jpg" class="ofertas__img">
-               <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><h4 >Ice cube</h4></a>
+               <a href="http://localhost/paginaWebFin/art4.php"><h4 >Ice cube</h4></a>
             </article>
             <article class="ofertas__columna">
             <img src="img/mas5.jpg" class="ofertas__img">
-                <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><h4 >2 Pac</h4></a>
+                <a href="http://localhost/paginaWebFin/art5.php"><h4 >2 Pac</h4></a>
             </article>
             <article class="ofertas__columna">
             <img src="img/mas6.png" class="ofertas__img">
-                <a href="file:///C:/xampp/htdocs/paginaWebFin/cuenta.html"><h4 >Snoop dogg</h4></a>
+                <a href="http://localhost/paginaWebFin/art6.php"><h4 >Snoop dogg</h4></a>
             </article>
             
             </div>

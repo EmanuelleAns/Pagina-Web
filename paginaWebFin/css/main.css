@@ -3,6 +3,105 @@
   box-sizing: border-box;
 }
 
+.fondo_inicioArt{
+   background-color: #f0f1ea;
+}
+
+.noticia_part2{
+  font-family: 'Open sans';
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  background: skyblue;
+    text-align: center; 
+    color: black;
+    padding: 20px;
+    position: relative;
+     bottom: 30px;
+}
+
+.noticia_part{
+  font-family: 'Open sans';
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  background: #27ff34;
+    text-align: center; 
+    color: black;
+    padding: 20px;
+    position: relative;
+     bottom: 30px;
+}
+
+.escuchaArt{
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+
+  background: black;
+  padding: 20px;
+     position: relative;
+     left: 80px;
+     
+}
+
+.noticia_art{
+  background: #dafe17;
+    text-align: center; 
+    color: black;
+    padding: 20px;
+
+    position: relative;
+     left: 80px;
+
+}
+.noticia_art1{
+  background: black;
+    text-align: center; 
+    color: white;
+    position: relative;
+    bottom: 200px;
+    left: 380px;
+    max-width: 670px;
+    font-size: 4em;
+   
+    
+}
+
+
+
+.noticias_art{
+  background: #cfff27;
+    text-align: center; 
+    color: black;
+    padding: 20px;
+
+
+}
+
+.art_img{
+   width: 34%;
+    position: relative;
+     left: 10px;
+     top: 20px;}  
+
+
+.escucha{
+
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+
+  background: #2585ef;
+  padding: 20px;
+     position: relative;
+     left: 80px;
+}
+
 #scrollUp { /*Estilo para boton subir*/
   bottom: 20px;
   right: 20px;
@@ -13,10 +112,33 @@
   background-size: cover;
 }
 
+
+#scrollUp:hover{
+     box-shadow: 0 0px 15px 3px rgba(98, 199, 231, 0.9);  
+}
+
+.noticias{
+  background: #dafe17;
+    text-align: center; 
+    color: black;
+    padding: 20px;
+}
 .noticia{
 	background: red;
     text-align: center; 
     color: #fff;
+    padding: 20px;
+}
+.noticia_p1{
+  font-family: 'Open sans';
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+
+  background: #66ff2b;
+    text-align: center; 
+    color: black;
     padding: 20px;
 }
 .noticia_p{

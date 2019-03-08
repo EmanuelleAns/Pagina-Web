@@ -2,6 +2,141 @@
   margin: 0; /* Estilo para la pagina */
   box-sizing: border-box;
 }
+.login{
+   text-align: center;
+   position: relative;
+   bottom: 120px; 
+   right: 30px;
+}
+.licenciasp2{
+  font-family: 'Open sans';
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  background: #e5ff81;
+    text-align: center; 
+  
+}
+.licenciasp{
+  font-family: 'Open sans';
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  background: #fa780e;
+    text-align: center; 
+  
+}
+.nostrosP3{
+  font-family: 'Open sans';
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  background: #ff8181;
+    text-align: center; 
+  
+}
+.nostrosP2{
+  font-family: 'Open sans';
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  background: #d3fffa;
+    text-align: center; 
+  
+}
+.nostrosP{
+  font-family: 'Open sans';
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  background: #00ffe4;
+    text-align: center; 
+  
+}
+.noticiaBlog3{
+  font-family: 'Open sans';
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  background: #e0d3d1;
+    text-align: center; 
+  
+}
+
+.blogg3_p{
+    font-family: 'Open sans';
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  background: #a2fbeb;
+    text-align: center; 
+}
+
+.noticiaBlog2{
+  font-family: 'Open sans';
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  background: #c8f27a;
+    text-align: center; 
+  
+}
+
+.blogg2_p{
+    font-family: 'Open sans';
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  background: #ff6855;
+    text-align: center; 
+}
+
+.noticiaB_img{
+   width: 50%;
+    position: relative;
+     left: 270px;
+
+   }  
+
+.noticiaBlog{
+  font-family: 'Open sans';
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  background: #fff4ad;
+    text-align: center; 
+  
+}
+
+.blogg_p{
+    font-family: 'Open sans';
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  background: #f7fcdc;
+    text-align: center; 
+}
+
+.blogg{
+    font-family: 'Open sans';
+  margin: 15px;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  background: skyblue;
+    text-align: center; 
+}
 
 .fondo_inicioArt{
    background-color: #f0f1ea;

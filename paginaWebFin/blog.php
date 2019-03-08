@@ -119,16 +119,29 @@
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
     </body>
+    <!-------------------------------------------------->
+  <br><br><h1 class="blogg">Últimas Noticias</h1>
+
+  <p class="blogg_p">Freestyle, públicos y estigmatización en el hip hop: Serko Fu</p>
+  <br>
+  <p class="noticiaBlog">Hablar de Serko Fu en el contexto del hip hop mexicano es hablar de una institución. El papá de los pollitos. Maestro Yoda del palabrerío. Almacén de sabiduría ancestral. Testigo y protagonista de primera fila. Quien estuvo ahí antes que pocos. Pionero dentro de lo que la palabra permite. Como dice en "Dígitos", "sigue en el juego, pero no es olímpico, tiene medallas, pero no son de tae kwon do".
+
+La historia de la relación entre Serko y la doble ache se remonta a inicios de los 90 en Gómez Palacio, Durango. Una de esas figuras surgidas del molde del "mito". Los empapados por la cultura traída en ranflas con placas del gaba que tiraban breaks y placas en la esquina, que de esa u otras formas, generaron las primeras células del circuito nacional, en el caso de Fuentes, la de los Caballeros del Plan G. </p>
+    <img src="img/noticiaBlog.jpg" class="noticiaB_img">
 
 
+<br><br>
+    <p class="blogg2_p">‘Istmo' paga una deuda que tenía con el rap: Dano</p>
+  <br>
+  <p class="noticiaBlog2">Rap francés, Mercedes y Rottweilers”. “Fast life antes de morir, pausa: rap honoris causa”. “Entendedor de un viejo argot de gente pobre”. “El fiel seguidor de Mobb Deep antes de que le diese una embolia cerebral de Havoc”. Apenas han pasado diez minutos de Istmo, el álbum que publicó en febrero Dano (rapero y productor argentino radicado desde niño en España) y sus letras de asociación libre no dejan de presentar códigos y knowledge: este es un disco estrictamente de rap. </p>
+    <img src="img/noticiaBlog2.jpg" class="noticiaB_img">
 
 
-
-
-
-
-
-
+<br><br>
+       <p class="blogg3_p">Jay Romero "Se Prende un Blunt" bien pegajoso en su nuevo tema</p>
+  <br>
+  <p class="noticiaBlog3">Es irónico y digno de hacer notar que la tradición musical de uno de los estados mexicanos más ricos en claves de sol, Veracruz, aún no haya encontrado un espacio protagónico en el entramado de la música independiente nacional, especialmente en esa entidad homogeneizada como "urbano" que crece a montones al otro lado de las costas veracruzanas, en arenas caribeñas. Sin embargo, hay un niño con hambre que busca reclamar la parte del pastel que corresponde a la identidad jarocha, logrando poco a poco ir probando el betún alrededor del bizcocho.</p>
+    <img src="img/noticiaBlog3.jpg" class="noticiaB_img">
 
 
 <!---------------------Pie de pagina--------------------------->

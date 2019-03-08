@@ -34,8 +34,17 @@
   right: 150px;
 
 }
+.fondo_cuenta{
+  background-color: #fa5bf5;
+}
+.fondo_licencias{
+  background-color: #8aef24;
+}
+.fondo_nosotros{
+  background-color: #f36f1d;
+}
 .fondo_inicio{
-   background-color: #e9e0e6;
+   background-color: #8823f2;
 }
 .fondo_blog{
    background-color: #60c0fb;

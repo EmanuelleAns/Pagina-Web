@@ -17,7 +17,7 @@
       <!--Usamos estilos-->
    
 </head>
-<body>
+<body class="fondo_cuenta">
     <!-----------------------------------------Header-------------------------------------->
     <header class="header"><!--Definimos Clases-->
 
@@ -45,11 +45,40 @@
         </nav>
         </div>
       </header>
+       <div class="banner" class="contenedor"><br><br><br><br><h1 class="banner__descripcion">Cuenta</h1></div>
+       <img src="img/user.png" class="noticia_img">
+<?php
+  include_once("raperos.php");
+?>
 
+<div class="login">
+ <h1>Iniciar Sesion</h1>
+<form  method=post>
 
+<br><input type='text' name=autor placeholder=Nombre required=""></br>
+<br><input name=cor type='email' placeholder=Correo required=""></br>
+<br><input type='submit'value=Iniciar ></br>
+</form> </div>
 
+<?php
+if(isset($_POST['autor'])&& isset($_POST['cor'])){
+$nom=$_POST['autor'];
+$correo=$_POST['cor'];
 
+ try{
+$sentencia=$base_de_datos->prepare("INSERT INTO login (nombre,correo,fecha) VALUES ('$nom','$correo',NOW())");
 
+$personas=$sentencia->execute();
+
+if($personas){
+echo "<br>Sesion Iniciada";
+}
+}
+catch(Exception $e){
+echo "<br>Ocurrio algo con la base de datos:".$e->getMessage();
+}
+}
+?>
 
       <footer><div class="contenedor">
               <p class="copy">FreeAudioTeam &copy; 2019</p><div class="sociales">

@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="es"><!--Definimos Idioma-->
 <head>
-  <meta charset="UTF-8">
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/estilos.css"><!--Vincular CSS-->
-        
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="js/jquery.scrollUp.js"></script>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
 
-        <link rel="stylesheet" href="css/main.css"><!-- Vincular para boton -->
-        <script>$(function(){$.scrollUp({scrollImg: true});});</script> <!-- Funcion de boton -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="css/estilos.css"><!--Vincular CSS-->
+  <link rel="stylesheet" href="cssBootstrap/bootstrap.min.css"> <!--BOOTSTRAP CSS -->
 
-
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style type="text/css">a:link{text-decoration:none;}</style><!--Quitar decoracion de subrayado-->
-
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        
+  <link rel="stylesheet" href="css/main.css"><!-- Vincular para boton -->
 
 
-        <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
-     <link href="https://file.myfontastic.com/t5tNwfwUapz4yDzK3B6sfe/icons.css" rel="stylesheet">
-      <!--Usamos estilos-->
-   
+  <link href="https://file.myfontastic.com/t5tNwfwUapz4yDzK3B6sfe/icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="js/jquery.scrollUp.js"></script> 
+  <script>$(function(){$.scrollUp({scrollImg: true});});</script> 
+  <!-- Funcion de boton -->
+  
+
+  <style type="text/css">a:link{text-decoration:none;}</style><!--Quitar decoracion de subrayado-->
+ 
+
 </head>
 <body class="fondo_blog">
-    <!-----------------------------------------Header-------------------------------------->
+    <!-------------------------------Header-------------------------------------->
     <header class="header"><!--Definimos Clases-->
 
     <div class="contenedor">
@@ -55,9 +55,15 @@
         </nav>
         </div>
       </header>
-      <div class="banner" ><br><br><h1 class="banner__descripcion">BLOG</h1></div><br><br>
 
-      
+<div class="banner" ><br><br><h1 class="banner__descripcion">BLOG</h1></div><br><br>
+
+    <div class="container-fluid bg-danger py-2">  
+      <h1 class="display-1"><b>Descubre nuestro 
+amplio catálogo.</b></h1>  <!-- CLASE DE BOOTSTRAP -->
+      <p class="lead"><b>Toda la música que encontrarás en FreeAudioTeam es música libre de derechos de autor o royalty free.!</b></p>
+    </div>
+
 
     <body>
 
@@ -119,40 +125,54 @@
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
     </body>
-    <!-------------------------------------------------->
-  <br><br><h1 class="blogg">Últimas Noticias</h1>
-
-  <p class="blogg_p">Freestyle, públicos y estigmatización en el hip hop: Serko Fu</p>
-  <br>
-  <p class="noticiaBlog">Hablar de Serko Fu en el contexto del hip hop mexicano es hablar de una institución. El papá de los pollitos. Maestro Yoda del palabrerío. Almacén de sabiduría ancestral. Testigo y protagonista de primera fila. Quien estuvo ahí antes que pocos. Pionero dentro de lo que la palabra permite. Como dice en "Dígitos", "sigue en el juego, pero no es olímpico, tiene medallas, pero no son de tae kwon do".
-
-La historia de la relación entre Serko y la doble ache se remonta a inicios de los 90 en Gómez Palacio, Durango. Una de esas figuras surgidas del molde del "mito". Los empapados por la cultura traída en ranflas con placas del gaba que tiraban breaks y placas en la esquina, que de esa u otras formas, generaron las primeras células del circuito nacional, en el caso de Fuentes, la de los Caballeros del Plan G. </p>
-    <img src="img/noticiaBlog.jpg" class="noticiaB_img">
 
 
-<br><br>
-    <p class="blogg2_p">‘Istmo' paga una deuda que tenía con el rap: Dano</p>
-  <br>
-  <p class="noticiaBlog2">Rap francés, Mercedes y Rottweilers”. “Fast life antes de morir, pausa: rap honoris causa”. “Entendedor de un viejo argot de gente pobre”. “El fiel seguidor de Mobb Deep antes de que le diese una embolia cerebral de Havoc”. Apenas han pasado diez minutos de Istmo, el álbum que publicó en febrero Dano (rapero y productor argentino radicado desde niño en España) y sus letras de asociación libre no dejan de presentar códigos y knowledge: este es un disco estrictamente de rap. </p>
-    <img src="img/noticiaBlog2.jpg" class="noticiaB_img">
+      <div class="container-fluid bg-warning py-2 text-center">  
+      <h1 class="display-1"><b>ÚLTIMAS NOTICIAS</b></h1>
+    </div>
 
 
-<br><br>
-       <p class="blogg3_p">Jay Romero "Se Prende un Blunt" bien pegajoso en su nuevo tema</p>
-  <br>
-  <p class="noticiaBlog3">Es irónico y digno de hacer notar que la tradición musical de uno de los estados mexicanos más ricos en claves de sol, Veracruz, aún no haya encontrado un espacio protagónico en el entramado de la música independiente nacional, especialmente en esa entidad homogeneizada como "urbano" que crece a montones al otro lado de las costas veracruzanas, en arenas caribeñas. Sin embargo, hay un niño con hambre que busca reclamar la parte del pastel que corresponde a la identidad jarocha, logrando poco a poco ir probando el betún alrededor del bizcocho.</p>
-    <img src="img/noticiaBlog3.jpg" class="noticiaB_img">
+<div class="container-fluid bg-primary">
+  <div class="row">
+    <div class="col-sm-12 col-md-6 ">
+      <h1 class="display-5"><b>Freestyle, públicos y estigmatización en el hip hop: Serko Fu</b></h1>
+        <p>Hablar de Serko Fu en el contexto del hip hop mexicano es hablar de una institución. El papá de los pollitos. Maestro Yoda del palabrerío. Almacén de sabiduría ancestral. Testigo y protagonista de primera fila. Quien estuvo ahí antes que pocos. Pionero dentro de lo que la palabra permite. Como dice en "Dígitos", "sigue en el juego, pero no es olímpico, tiene medallas, pero no son de tae kwon do".
+          </p>
+ <img src="img/noticiaBlog.jpg" class="img-fluid py-3">
+
+        </div>
+
+    <div class="col-sm-12 col-md-6 ">
+      <h1 class="display-5"><b>'Istmo' paga una deuda que tenía con el rap: Dano</b></h1>
+        <p>Rap francés, Mercedes y Rottweilers”. “Fast life antes de morir, pausa: rap honoris causa”. “Entendedor de un viejo argot de gente pobre”. “El fiel seguidor de Mobb Deep antes de que le diese una embolia cerebral de Havoc”. Apenas han pasado diez minutos de Istmo, el álbum que publicó en febrero Dano (rapero y productor argentino radicado desde niño en España) y sus letras de asociación libre no dejan de presentar códigos y knowledge: este es un disco estrictamente de rap.</p>
+
+      <img src="img/noticiaBlog2.jpg" class="img-fluid py-5">
+      </div></div></div>
+      
 
 
-<!---------------------Pie de pagina--------------------------->
+<audio controls class="reproductor2"><source src="musica/musica21.mp3" type="audio/mpeg" ></audio>
+
+  <audio controls class="reproductor1"><source src="musica/musica21.mp3" type="audio/mpeg" ></audio>
   
-  <footer><div class="contenedor">
+
+
+    <a download href="musica/musica1.mp3"><img src="img/descarga.png"></a>
+
+
+
+      <footer><div class="contenedor">
               <p class="copy">FreeAudioTeam &copy; 2019</p><div class="sociales">
               <a href="https://es-la.facebook.com/"><img src="img/icono1.png" alt=""></a>    
               <a href="https://twitter.com/?lang=es"><img src="img/icono2.png"></a>
               <a href="https://www.instagram.com/?hl=es-la"><img src="img/icono3.png"></a>
               <a href="https://www.youtube.com/"><img src="img/icono4.png"></a> </div></div></footer>
 
- <script src="js/menu.js"></script> <!--enlace con javaScript--> 
-</html>
 
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</body>
+<script src="js/menu.js"></script> <!--enlace con javaScript--> 
+</html>
+   

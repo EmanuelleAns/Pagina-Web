@@ -62,8 +62,9 @@ Gerardo Daniel Torres Montante de 24 años de edad, mejor conocido como Gera MX,
 
 ¡Súbele y disfrútalo!
 </P>
-      <audio class="escucha" controls class="reproductor2"><source src="musica/musica21.mp3" type="audio/mp3"></div></audio>
       
+    
+    <audio controls><source src="musica/musica21.mp3" type="audio/mpeg"></audio>
 
 
 

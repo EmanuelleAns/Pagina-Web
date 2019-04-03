@@ -1,7 +1,7 @@
 <?php 
 $contraseña="";
 $usuario="root";
-$nombre_BD="webFin";
+$nombre_BD="raperos";
 try{
 	$base_de_datos = new PDO('mysql:host=localhost;dbname='.$nombre_BD,$usuario,$contraseña);
 	echo"<br><br><br><br><br><br><br><br>";

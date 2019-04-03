@@ -58,6 +58,7 @@
       <th>Canción</th>
       <th>Licencia de Uso</th>
       <th>Reproducción</th>
+      <th>Descarga</th>
     </tr>
 
 <?php 
@@ -73,6 +74,7 @@ $rapero=$sentencia->fetchAll(PDO::FETCH_OBJ);
       <td><?php echo $p->cancion ?></td>
       <td><?php echo $p->licencia ?></td>
       <td><?php echo $p->reproduccion ?></td>
+      <td><?php echo $p->descarga ?></td>
     </tr>
 
   <?php } 

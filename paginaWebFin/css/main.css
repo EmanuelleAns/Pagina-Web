@@ -2,6 +2,8 @@
   margin: 0; /* Estilo para la pagina */
   box-sizing: border-box;
 }
+
+
 .login{
    text-align: center;
    position: relative;
@@ -103,7 +105,7 @@
 .noticiaB_img{
    width: 50%;
     position: relative;
-     left: 270px;
+     left: 100px;
 
    }  
 
@@ -218,10 +220,10 @@
 }
 
 .art_img{
-   width: 34%;
+     width: 34%;
     position: relative;
      left: 10px;
-     top: 20px;}  
+     top: 20px;}
 
 
 .escucha{

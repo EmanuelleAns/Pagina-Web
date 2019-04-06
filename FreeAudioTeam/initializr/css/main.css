@@ -1,0 +1,120 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html, body {margin:0; padding:0; border:none;}
+
+#cabeceraA, #cabeceraL, #cabeceraRE, #cabeceraUS{
+background:#FF6600;
+    height:100px;
+    font: bold 20px calibri, sans-serif;
+    color: black;
+    text-align: center;
+    display: block;
+    border-spacing: 0px;
+    text-align: center;
+}
+
+
+#menuA, #menuL, #menuRE,#menuUS {
+
+    background:#FF6600;
+    font: bold 15px verdana;
+    width: 100%;
+    height: 100px; 
+    text-align: center;
+    display: block;
+    border-spacing: 0px;
+     
+
+
+
+}
+
+#articuloA, #articuloL, #articuloRE, #articuloUS{
+
+     background:#FFFF33;
+    margin:10;
+    width: 100%
+    height:300px; 
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+    color: black;
+}
+
+
+#seccionA, #seccionL, #seccionRE, #seccionUS{
+
+    background: #FFFF33;
+    height:300px; 
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+    color: black;
+}
+
+#asideL, #piel, #pieRE, #pieUS{
+
+    background: #FFFF33; 
+    height:50px;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+    color: black;
+}
+ #Lis{
+    background: #FFFF33;
+    color: black;
+ }
+ a{
+    color: black;
+    font: bold 15px times new roman;
+ }
+
+#FormuLogin, #FormuRE{
+
+    font: bold 20px calibri, sans-serif;
+    float: left;
+    margin-left: 10%;
+}
+#FormuRE{
+
+    font: bold 20px calibri, sans-serif;
+    float: left;
+    margin-left: 0%;
+}
+#img2{
+    float: right;
+     margin-right: 20%;
+
+}
+#img3{
+     float: right;
+     margin-right: 20%;
+    margin: 3%;
+}
+
+
+#BTNA{
+    
+display: block;
+float: left;
+}
+
+@media screen and (max-width: 985px){
+#img2,#img3{
+   
+     display: none;
+    }
+
+    #FormuLogin,#FormuRE{
+        align-content: center;
+
+    font: bold 15px calibri, sans-serif;
+    margin-left: 30%;
+}
+}
+
+

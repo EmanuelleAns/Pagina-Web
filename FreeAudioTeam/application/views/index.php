@@ -88,22 +88,22 @@
 
         <div class="destino__columna"><!--Imagen de contenidos-->
            <img src="<?php echo base_url(); ?>Assets/img/imagen1.jpg" class="destino__img">
-           <h3><a href="FreeAudioTeam/newIndex"> Gera MXM</a></h3>
+           <h3><a href="Musica_sin_copyright/newIndex"> Gera MXM</a></h3>
           </div>
 
           <div class="destino__columna"><!--Imagen de contenidos-->
               <img src="<?php echo base_url(); ?>Assets/img/imagen2.jpg" alt="" class="destino__img">         
-              <h3><a href="FreeAudioTeam/newIndex2">Eptos Uno</a></h3>               
+              <h3><a href="Musica_sin_copyright/newIndex2">Eptos Uno</a></h3>               
           </div>
 
           <div class="destino__columna"><!--Imagen de contenidos-->
               <img src="<?php echo base_url(); ?>Assets/img/imagen3.jpg" alt="" class="destino__img">
-              <h3><a href="FreeAudioTeam/newIndex3">CharlesAns</a></h3>
+              <h3><a href="Musica_sin_copyright/newIndex3">CharlesAns</a></h3>
           </div>
 
           <div class="destino__columna"><!--Imagen de contenidos-->
               <img src="<?php echo base_url(); ?>Assets/img/imagen4.jpg" alt="" class="destino__img">
-              <h3><a href="FreeAudioTeam/newIndex4">Rels B</a></h3>
+              <h3><a href="Musica_sin_copyright/newIndex4">Rels B</a></h3>
           </div> 
         </section>   
         
@@ -119,7 +119,7 @@
             <h3 class="especial__titulo">F*ckTodas menos la mía</h3>
             <p class="especial__txt">Borra el tiempo, tira todo lo que te recuerde a mí, las fotos que te tomé, las cartas que te escribí. Nada es suficiente como tus grandes abrigos. –”Nunca te pude alcanzar”.
             </p>
-        <a href="FreeAudioTeam/escucha"><button class="button">Escuchar Ahora</button></a></div>
+        <a href="Musica_sin_copyright/escucha"><button class="button">Escuchar Ahora</button></a></div>
         </article>
         
         <article class="especial__columna2">
@@ -128,7 +128,7 @@
                 <h3 class="especial__titulo">Ataraxia</h3>
                 <p class="especial__txt">Voy sin estribillos a kilómetros de casa, se juntan los problemas mientras las horas pasan. Yo me distraigo entre envases y bachas, y me siento mejor cuando la gente está borracha. –Todavía.
                </p>
-                  <a href="FreeAudioTeam/escucha2"><button class="button">Escuchar Ahora</button></a></div>
+                  <a href="Musica_sin_copyright/escucha2"><button class="button">Escuchar Ahora</button></a></div>
                   
             </article>
             
@@ -138,7 +138,7 @@
                 <h3 class="especial__titulo">West Gold ft. Eptos Uno</h3>
                 <p class="especial__txt">En una vida próspera, una vida más íntima, donde más de una probó lo de ser mi víctima. Solo son síntomas de intimidad y vida, la vida no es pa’ llorar sino para bailar respira. –A paso lento.
                </p>
-                  <a href="FreeAudioTeam/escucha3"><button class="button">Escuchar Ahora</button></a></div>
+                  <a href="Musica_sin_copyright/escucha3"><button class="button">Escuchar Ahora</button></a></div>
             </article>
             </div>
         </section>
@@ -150,28 +150,28 @@
         <div class="contenedor">
             <article class="ofertas__columna">
             <img src="<?php echo base_url(); ?>Assets/img/mas1.jpg" class="ofertas__img">
-                <a href="FreeAudioTeam/art"><h4>Canserbero</h4></a>
+                <a href="Musica_sin_copyright/art"><h4>Canserbero</h4></a>
             </article>
 
             <article class="ofertas__columna">
             <img src="<?php echo base_url(); ?>Assets/img/mas2.jpg" class="ofertas__img">
-                <a href="FreeAudioTeam/art2"><h4 >La Banda Bastön</h4></a>
+                <a href="Musica_sin_copyright/art2"><h4 >La Banda Bastön</h4></a>
             </article>
             <article class="ofertas__columna">
             <img src="<?php echo base_url(); ?>Assets/img/mas3.jpg" class="ofertas__img">
-                <a href="FreeAudioTeam/art3"><h4 >Cartel de Santa</h4></a>
+                <a href="Musica_sin_copyright/art3"><h4 >Cartel de Santa</h4></a>
             </article>
             <article class="ofertas__columna">
             <img src="<?php echo base_url(); ?>Assets/img/mas4.jpg" class="ofertas__img">
-               <a href="FreeAudioTeam/art4"><h4 >Ice cube</h4></a>
+               <a href="Musica_sin_copyright/art4"><h4 >Ice cube</h4></a>
             </article>
             <article class="ofertas__columna">
             <img src="<?php echo base_url(); ?>Assets/img/mas5.jpg" class="ofertas__img">
-                <a href="FreeAudioTeam/art5"><h4 >2 Pac</h4></a>
+                <a href="Musica_sin_copyright/art5"><h4 >2 Pac</h4></a>
             </article>
             <article class="ofertas__columna">
             <img src="<?php echo base_url(); ?>Assets/img/mas6.png" class="ofertas__img">
-                <a href="FreeAudioTeam/art6"><h4 >Snoop dogg</h4></a>
+                <a href="Musica_sin_copyright/art6"><h4 >Snoop dogg</h4></a>
             </article>
             
             </div>

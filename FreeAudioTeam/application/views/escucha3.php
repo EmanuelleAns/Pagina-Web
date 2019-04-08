@@ -19,7 +19,7 @@
 </head>
 <body class="fondo_inicio">
     <!-----------------------------------------Header-------------------------------------->
-    <header class="header"><!--Definimos Clases-->
+     <header class="header"><!--Definimos Clases-->
 
     <div class="contenedor">
         <img src="<?php echo base_url(); ?>Assets/img/logo1.png" class="logo"><!--Logo Principal-->
@@ -28,19 +28,19 @@
         <nav class="nav" id="nav">
         <ul class="menu"><!--Definir Botones grales-->
           
-          <li class="menu__item"><a class="menu__link" href="http://localhost/paginaWebFin/index.php">Inicio</a></li>
+          <li class="menu__item"><a class="menu__link" href="inicio">Inicio</a></li>
 
-          <li class="menu__item"><a class="menu__link" href="http://localhost/paginaWebFin/blog.php">BLOG</a></li>
+          <li class="menu__item"><a class="menu__link" href="blog">BLOG</a></li>
 
-          <li class="menu__item"><a class="menu__link" href="http://localhost/paginaWebFin/categorias.php">Categorías</a></li>
+          <li class="menu__item"><a class="menu__link" href="categorias">Categorías</a></li>
 
-          <li class="menu__item"><a class="menu__link" href="http://localhost/paginaWebFin/nosotros.php">Nosotros</a></li>
+          <li class="menu__item"><a class="menu__link" href="nosotros">Nosotros</a></li>
 
-          <li class="menu__item"><a class="menu__link" href="http://localhost/paginaWebFin/licencias.php">Licencias de Uso</a></li>
+          <li class="menu__item"><a class="menu__link" href="licencias">Licencias de Uso</a></li>
 
-          <li class="menu__item"><a class="menu__link" href="http://localhost/paginaWebFin/cuenta.php">Cuenta</a></li>
+          <li class="menu__item"><a class="menu__link" href="cuentas">Cuentas</a></li>
 
-          <img src="img/user.jpg" class="logoUser">        
+          <img src="<?php echo base_url(); ?>Assets/img/user.jpg" class="logoUser">        
         </ul>
         </nav>
         </div>

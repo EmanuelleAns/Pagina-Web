@@ -11,6 +11,23 @@ class Musica_sin_copyright extends CI_Controller{
 	public function inicio(){
 		$this->load->view('inicio');
 	}
+	public function conexion(){
+		$this->load->view('conexion');
+	}
+	
+	public function usuario(){
+		$this->load->view('usuario');
+	}
+	public function admin(){
+		$this->load->view('admin');
+	}
+
+	public function cuentas(){
+		$this->load->view('cuentas');
+	}
+	public function login(){
+		$this->load->view('login');
+	}
 
 	public function blog(){
 		$this->load->view('blog');
@@ -26,10 +43,6 @@ class Musica_sin_copyright extends CI_Controller{
 
 	public function licencias(){
 		$this->load->view('licencias');
-	}
-
-	public function cuenta(){
-		$this->load->view('cuenta');
 	}
 
 	public function newIndex(){

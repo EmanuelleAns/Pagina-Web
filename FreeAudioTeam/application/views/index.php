@@ -44,7 +44,7 @@
 
           <li class="menu__item"><a class="menu__link" href="Musica_sin_copyright/licencias">Licencias de Uso</a></li>
 
-          <li class="menu__item"><a class="menu__link" href="Musica_sin_copyright/cuenta">Cuenta</a></li>
+          <li class="menu__item"><a class="menu__link" href="Musica_sin_copyright/cuentas">Cuentas</a></li>
 
           <img src="<?php echo base_url(); ?>Assets/img/user.jpg" class="logoUser">        
         </ul>

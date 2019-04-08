@@ -38,7 +38,7 @@
 
           <li class="menu__item"><a class="menu__link" href="licencias">Licencias de Uso</a></li>
 
-          <li class="menu__item"><a class="menu__link" href="cuenta">Cuenta</a></li>
+          <li class="menu__item"><a class="menu__link" href="cuentas">Cuentas</a></li>
 
           <img src="<?php echo base_url(); ?>Assets/img/user.jpg" class="logoUser">        
         </ul>

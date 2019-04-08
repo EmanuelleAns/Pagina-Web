@@ -28,17 +28,17 @@
         <nav class="nav" id="nav">
         <ul class="menu"><!--Definir Botones grales-->
           
-          <li class="menu__item"><a class="menu__link" href="Catalogo/index">Inicio</a></li>
+          <li class="menu__item"><a class="menu__link" href="inicio">Inicio</a></li>
 
-          <li class="menu__item"><a class="menu__link" href="Catalogo/blog">BLOG</a></li>
+          <li class="menu__item"><a class="menu__link" href="blog">BLOG</a></li>
 
-          <li class="menu__item"><a class="menu__link" href="Catalogo/categorias">Categorías</a></li>
+          <li class="menu__item"><a class="menu__link" href="categorias">Categorías</a></li>
 
-          <li class="menu__item"><a class="menu__link" href="Catalogo/nosotros">Nosotros</a></li>
+          <li class="menu__item"><a class="menu__link" href="nosotros">Nosotros</a></li>
 
-          <li class="menu__item"><a class="menu__link" href="Catalogo/licencias">Licencias de Uso</a></li>
+          <li class="menu__item"><a class="menu__link" href="licencias">Licencias de Uso</a></li>
 
-          <li class="menu__item"><a class="menu__link" href="Catalogo/cuenta">Cuenta</a></li>
+          <li class="menu__item"><a class="menu__link" href="cuentas">Cuentas</a></li>
 
           <img src="<?php echo base_url(); ?>Assets/img/user.jpg" class="logoUser">        
         </ul>

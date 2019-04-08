@@ -2,7 +2,7 @@
 <html lang="es"><!--Definimos Idioma-->
 <head>
 
-	<meta charset="UTF-8">
+	 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -48,7 +48,7 @@
 
           <li class="menu__item"><a class="menu__link" href="licencias">Licencias de Uso</a></li>
 
-          <li class="menu__item"><a class="menu__link" href="cuenta">Cuenta</a></li>
+          <li class="menu__item"><a class="menu__link" href="cuentas">Cuentas</a></li>
 
           <img src="<?php echo base_url(); ?>Assets/img/user.jpg" class="logoUser">        
         </ul>
@@ -149,7 +149,6 @@ amplio catálogo.</b></h1>  <!-- CLASE DE BOOTSTRAP -->
       <img src="<?php echo base_url(); ?>Assets/img/noticiaBlog2.jpg" class="img-fluid py-5">
       </div></div></div>
       
-
 
       <footer><div class="contenedor">
               <p class="copy">FreeAudioTeam &copy; 2019</p><div class="sociales">
